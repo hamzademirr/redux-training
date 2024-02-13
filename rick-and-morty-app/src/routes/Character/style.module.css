@@ -1,0 +1,28 @@
+.my_masonry_grid {
+  display: flex;
+  justify-content: center;
+}
+.my_masonry_grid_column {
+  border-left: 20px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my_masonry_grid_column > div { /* change div to reference your elements in <masonry> */
+  background: gray;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.character{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.character_card{
+  h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+}

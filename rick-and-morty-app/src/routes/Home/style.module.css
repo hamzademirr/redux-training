@@ -1,0 +1,33 @@
+.my_masonry_grid {
+  display: flex;
+  margin-left: -20px;
+}
+.my_masonry_grid_column {
+  border-left: 20px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my_masonry_grid_column > div { /* change div to reference your elements in <masonry> */
+  margin-bottom: 20px;
+  background: #ddd;
+  padding: 5px;
+  border-radius: 10px;
+}
+.my_masonry_grid_column > div > a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  background: transparent;
+}
+.my_masonry_grid_column > div > a:hover {
+  color: #000;
+}
+.character{
+  width: 100%;
+  border-radius: 10px;
+}
+.next_page{
+  padding: 10px 0 40px 0;
+  text-align: center;
+}
